@@ -1,0 +1,96 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{fancyhdr}
+\usepackage{datetime}
+\usepackage{graphicx}
+\usepackage{float} % Para controlar la posición de las figuras
+\usepackage{hyperref} % Para enlaces
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Computación Paralela}
+\chead{FINESI}
+\rhead{\today}
+
+\begin{document}
+
+\begin{flushleft}
+\textbf{Universidad Nacional del Altiplano}\\
+Facultad de Ingeniería Estadística e Informática\\
+Docente: Fred Torres Cruz\\
+Autor: Luis Fernando Valero Sucari
+\end{flushleft}
+
+\vspace{1cm} % Espacio vertical entre los subtítulos y el contenido
+
+\section*{Actividad N° 05}
+La taxonomía de Duncan, adaptada para la educación en computación paralela, proporciona un marco estructurado para desarrollar habilidades y conocimientos en esta área específica. La computación paralela, que abarca la ejecución simultánea de múltiples cálculos, requiere una comprensión profunda de conceptos, técnicas y herramientas especializadas. La adaptación de la taxonomía de Duncan a la computación paralela puede ayudar a los educadores a planificar currículos efectivos y a los estudiantes a progresar de manera estructurada en su aprendizaje.
+
+\section*{Taxonomía de Duncan en Computación Paralela}
+\subsection*{Recordación (Recall)}
+\textbf{Objetivos:} Memorizar y recordar términos y conceptos básicos de computación paralela.\\
+\textbf{Ejemplos:}
+\begin{itemize}
+    \item Definir términos como "hilo", "proceso", "sincronización", "memoria compartida" y "comunicación entre procesos".
+    \item Recordar la sintaxis básica de las directivas de OpenMP o MPI.
+\end{itemize}
+
+\subsection*{Comprensión (Comprehension)}
+\textbf{Objetivos:} Comprender y explicar conceptos y procesos básicos.\\
+\textbf{Ejemplos:}
+\begin{itemize}
+    \item Explicar la diferencia entre paralelismo de datos y paralelismo de tareas.
+    \item Describir cómo funciona la sincronización de hilos usando primitivas como mutexes y semáforos.
+\end{itemize}
+
+\subsection*{Aplicación (Application)}
+\textbf{Objetivos:} Aplicar conocimientos y técnicas de computación paralela para resolver problemas.\\
+\textbf{Ejemplos:}
+\begin{itemize}
+    \item Escribir un programa simple en MPI que distribuya una tarea de cálculo entre varios procesos.
+    \item Implementar un algoritmo paralelo usando OpenMP para realizar operaciones en una matriz.
+\end{itemize}
+
+\subsection*{Análisis (Analysis)}
+\textbf{Objetivos:} Analizar problemas complejos y evaluar la eficiencia de soluciones paralelas.\\
+\textbf{Ejemplos:}
+\begin{itemize}
+    \item Analizar la escalabilidad de un algoritmo paralelo al incrementar el número de procesadores.
+    \item Evaluar los cuellos de botella y la sobrecarga de comunicación en una aplicación paralela.
+\end{itemize}
+
+\subsection*{Síntesis (Synthesis)}
+\textbf{Objetivos:} Integrar y combinar conocimientos para crear soluciones nuevas y efectivas.\\
+\textbf{Ejemplos:}
+\begin{itemize}
+    \item Diseñar un nuevo algoritmo paralelo que minimice la comunicación y optimice el uso de recursos.
+    \item Desarrollar una aplicación compleja que combine múltiples técnicas de paralelismo (e.g., paralelismo a nivel de hilos y procesos).
+\end{itemize}
+
+\subsection*{Evaluación (Evaluation)}
+\textbf{Objetivos:} Evaluar críticamente la efectividad y eficiencia de soluciones y algoritmos paralelos.\\
+\textbf{Ejemplos:}
+\begin{itemize}
+    \item Comparar la eficiencia de diferentes algoritmos paralelos para la multiplicación de matrices y determinar cuál es más adecuado para diferentes arquitecturas de hardware.
+    \item Evaluar el rendimiento de una aplicación paralela en diferentes entornos de ejecución (e.g., clústeres, GPUs).
+\end{itemize}
+
+\section*{Referencias Bibliográficas}
+Para profundizar en la enseñanza y el aprendizaje de la computación paralela:
+\begin{itemize}
+    \item Grama, A., Gupta, A., Karypis, G., & Kumar, V. (2003). \textit{Introduction to Parallel Computing.} Pearson Education.
+    \item Foster, I. (1995). \textit{Designing and Building Parallel Programs: Concepts and Tools for Parallel Software Engineering.} Addison-Wesley.
+    \item Quinn, M. J. (2004). \textit{Parallel Programming in C with MPI and OpenMP.} McGraw-Hill.
+    \item Wilkinson, B., & Allen, M. (2005). \textit{Parallel Programming: Techniques and Applications Using Networked Workstations and Parallel Computers.} Pearson.
+    \item Pacheco, P. (2011). \textit{An Introduction to Parallel Programming.} Morgan Kaufmann.
+    \item Rauber, T., & Rünger, G. (2013). \textit{Parallel Programming: For Multicore and Cluster Systems.} Springer.
+    \item Culler, D. E., & Singh, J. P. (1998). \textit{Parallel Computer Architecture: A Hardware/Software Approach.} Morgan Kaufmann.
+\end{itemize}
+
+\vspace{1cm} % Espacio vertical antes del enlace
+
+\noindent Link de GitHub: \url{https://github.com/Luis260702/actividad03}
+
+\end{document}
